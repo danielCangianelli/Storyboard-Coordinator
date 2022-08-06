@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		5BCD22A5289ED49D009CDCF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD22A4289ED49D009CDCF9 /* AppDelegate.swift */; };
 		5BCD22A7289ED49D009CDCF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD22A6289ED49D009CDCF9 /* SceneDelegate.swift */; };
-		5BCD22A9289ED49D009CDCF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD22A8289ED49D009CDCF9 /* ViewController.swift */; };
+		5BCD22A9289ED49D009CDCF9 /* ScreenAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD22A8289ED49D009CDCF9 /* ScreenAViewController.swift */; };
 		5BCD22AC289ED49D009CDCF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCD22AA289ED49D009CDCF9 /* Main.storyboard */; };
 		5BCD22AE289ED49F009CDCF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCD22AD289ED49F009CDCF9 /* Assets.xcassets */; };
 		5BCD22B1289ED49F009CDCF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCD22AF289ED49F009CDCF9 /* LaunchScreen.storyboard */; };
+		5BCD22BA289ED81B009CDCF9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD22B9289ED81B009CDCF9 /* Coordinator.swift */; };
+		5BCD22BC289ED830009CDCF9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD22BB289ED830009CDCF9 /* AppCoordinator.swift */; };
+		5BCD22C4289ED9AF009CDCF9 /* ScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD22C3289ED9AF009CDCF9 /* ScreenViewModel.swift */; };
+		5BCD22C6289EDA9F009CDCF9 /* ScreenAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD22C5289EDA9F009CDCF9 /* ScreenAViewModel.swift */; };
+		5BCD22C8289EDABD009CDCF9 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD22C7289EDABD009CDCF9 /* Observable.swift */; };
+		5BCD22CA289EDDED009CDCF9 /* ScreenBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD22C9289EDDED009CDCF9 /* ScreenBViewController.swift */; };
+		5BCD22CC289EDE51009CDCF9 /* ScreenBViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD22CB289EDE51009CDCF9 /* ScreenBViewModel.swift */; };
+		5BCD22CE289EE0DE009CDCF9 /* ScreenCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD22CD289EE0DE009CDCF9 /* ScreenCViewController.swift */; };
+		5BCD22D0289EE13A009CDCF9 /* ScreenCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD22CF289EE13A009CDCF9 /* ScreenCViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BCD22A1289ED49D009CDCF9 /* Coordinator Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coordinator Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCD22A4289ED49D009CDCF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BCD22A6289ED49D009CDCF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BCD22A8289ED49D009CDCF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BCD22A8289ED49D009CDCF9 /* ScreenAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenAViewController.swift; sourceTree = "<group>"; };
 		5BCD22AB289ED49D009CDCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BCD22AD289ED49F009CDCF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BCD22B0289ED49F009CDCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BCD22B2289ED49F009CDCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BCD22B9289ED81B009CDCF9 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5BCD22BB289ED830009CDCF9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5BCD22C3289ED9AF009CDCF9 /* ScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewModel.swift; sourceTree = "<group>"; };
+		5BCD22C5289EDA9F009CDCF9 /* ScreenAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenAViewModel.swift; sourceTree = "<group>"; };
+		5BCD22C7289EDABD009CDCF9 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		5BCD22C9289EDDED009CDCF9 /* ScreenBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBViewController.swift; sourceTree = "<group>"; };
+		5BCD22CB289EDE51009CDCF9 /* ScreenBViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBViewModel.swift; sourceTree = "<group>"; };
+		5BCD22CD289EE0DE009CDCF9 /* ScreenCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCViewController.swift; sourceTree = "<group>"; };
+		5BCD22CF289EE13A009CDCF9 /* ScreenCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,64 @@
 		5BCD22A3289ED49D009CDCF9 /* Coordinator Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				5BCD22BF289ED8AF009CDCF9 /* presentation */,
+				5BCD22B8289ED806009CDCF9 /* coordinator */,
 				5BCD22A4289ED49D009CDCF9 /* AppDelegate.swift */,
 				5BCD22A6289ED49D009CDCF9 /* SceneDelegate.swift */,
-				5BCD22A8289ED49D009CDCF9 /* ViewController.swift */,
-				5BCD22AA289ED49D009CDCF9 /* Main.storyboard */,
 				5BCD22AD289ED49F009CDCF9 /* Assets.xcassets */,
 				5BCD22AF289ED49F009CDCF9 /* LaunchScreen.storyboard */,
 				5BCD22B2289ED49F009CDCF9 /* Info.plist */,
 			);
 			path = "Coordinator Storyboard";
+			sourceTree = "<group>";
+		};
+		5BCD22B8289ED806009CDCF9 /* coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5BCD22B9289ED81B009CDCF9 /* Coordinator.swift */,
+				5BCD22BB289ED830009CDCF9 /* AppCoordinator.swift */,
+			);
+			path = coordinator;
+			sourceTree = "<group>";
+		};
+		5BCD22BF289ED8AF009CDCF9 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				5BCD22C2289ED90D009CDCF9 /* viewmodel */,
+				5BCD22C1289ED8DA009CDCF9 /* viewcontroller */,
+				5BCD22C0289ED8C1009CDCF9 /* view */,
+				5BCD22C7289EDABD009CDCF9 /* Observable.swift */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		5BCD22C0289ED8C1009CDCF9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5BCD22AA289ED49D009CDCF9 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5BCD22C1289ED8DA009CDCF9 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				5BCD22A8289ED49D009CDCF9 /* ScreenAViewController.swift */,
+				5BCD22C9289EDDED009CDCF9 /* ScreenBViewController.swift */,
+				5BCD22CD289EE0DE009CDCF9 /* ScreenCViewController.swift */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		5BCD22C2289ED90D009CDCF9 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				5BCD22C3289ED9AF009CDCF9 /* ScreenViewModel.swift */,
+				5BCD22C5289EDA9F009CDCF9 /* ScreenAViewModel.swift */,
+				5BCD22CB289EDE51009CDCF9 /* ScreenBViewModel.swift */,
+				5BCD22CF289EE13A009CDCF9 /* ScreenCViewModel.swift */,
+			);
+			path = viewmodel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +205,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BCD22A9289ED49D009CDCF9 /* ViewController.swift in Sources */,
+				5BCD22CE289EE0DE009CDCF9 /* ScreenCViewController.swift in Sources */,
+				5BCD22BA289ED81B009CDCF9 /* Coordinator.swift in Sources */,
+				5BCD22A9289ED49D009CDCF9 /* ScreenAViewController.swift in Sources */,
+				5BCD22BC289ED830009CDCF9 /* AppCoordinator.swift in Sources */,
+				5BCD22CC289EDE51009CDCF9 /* ScreenBViewModel.swift in Sources */,
+				5BCD22C8289EDABD009CDCF9 /* Observable.swift in Sources */,
+				5BCD22C4289ED9AF009CDCF9 /* ScreenViewModel.swift in Sources */,
 				5BCD22A5289ED49D009CDCF9 /* AppDelegate.swift in Sources */,
+				5BCD22C6289EDA9F009CDCF9 /* ScreenAViewModel.swift in Sources */,
 				5BCD22A7289ED49D009CDCF9 /* SceneDelegate.swift in Sources */,
+				5BCD22CA289EDDED009CDCF9 /* ScreenBViewController.swift in Sources */,
+				5BCD22D0289EE13A009CDCF9 /* ScreenCViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
